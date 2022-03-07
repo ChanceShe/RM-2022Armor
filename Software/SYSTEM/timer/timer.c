@@ -12,10 +12,10 @@ void TIM4_Configuration(void)
     nvic.NVIC_IRQChannelCmd = ENABLE;
     NVIC_Init(&nvic);
 		
-    tim.TIM_Prescaler = 84-1;        //84M internal clock
+    tim.TIM_Prescaler = 72-1;        //84M internal clock
     tim.TIM_CounterMode = TIM_CounterMode_Up;
     tim.TIM_ClockDivision = TIM_CKD_DIV1;
-    tim.TIM_Period = 1000-1;  //1ms,1000Hz
+    tim.TIM_Period = 100-1;  //1ms,1000Hz
     TIM_TimeBaseInit(TIM4,&tim);
 		
 		TIM_Cmd(TIM4, ENABLE);	 //使能定时器4

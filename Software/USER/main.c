@@ -1,10 +1,10 @@
 #include "main.h"
 
-u32 system_time = 0;
 u8 key;
 u8 color = 0;
 int main(void)
-{ 
+{
+//	SystemInit();
 	delay_init();		  //初始化延时函数
 	TIM4_Configuration();
 	LED_Init();		        //初始化LED端口
@@ -52,15 +52,4 @@ int main(void)
 } 
 
 
-void control_task(void)
-{
-	system_time++;
-	if(system_time>=2000)
-	{
-		if(system_time%1 == 0)
-		{
-			Get_Weight();
-		}
-	}
-}
 

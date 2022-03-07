@@ -4,7 +4,6 @@
 u32 HX711_Buffer; 
 u32 Weight_Maopi;
 s32 Weight_Shiwu;
-s32 last_Weight_Shiwu;
 u8 Flag_Error = 0;
 
 

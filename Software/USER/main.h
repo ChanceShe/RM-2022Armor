@@ -12,4 +12,5 @@
 #include "key.h"
 #include "HX711.h"
 
+void control_task(void);
 #endif 

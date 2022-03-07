@@ -5,11 +5,11 @@
 <h2>Tool Versions:</h2>
 IDE-Version: ¦ÌVision V5.23.0.0
 Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: 123 ASUS, 123, LIC=8MZI6-D149S-NT43G-V72HG-CCLL5-E8JTI
+License Information: Chengqi S, 1, LIC=V85FJ-U4X6J-WKTB8-3RXD4-GY9SS-KYVY4
  
 Tool Versions:
 Toolchain:       MDK-ARM Professional  Version: 5.23
-Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
 C Compiler:      Armcc.exe V5.06 update 4 (build 422)
 Assembler:       Armasm.exe V5.06 update 4 (build 422)
 Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
@@ -21,31 +21,77 @@ Target DLL:      Segger\JL2CM3.dll V2.99.23.0
 Dialog DLL:      TCM.DLL V1.27.0.0
  
 <h2>Project:</h2>
-F:\RoboMaster\Software\Project\×°¼×°å\ARMOR\ARMOR.uvprojx
-Project File Date:  03/04/2022
+D:\Robomaster\Software\Git\ARMOR\Software\ARMOR.uvprojx
+Project File Date:  03/06/2022
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
-Build target 'ARMOR'
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'ARMOR'
+compiling controltask.c...
 compiling main.c...
-.\USER\main.h(15): warning:  #1-D: last line of file ends without a newline
+.\USER\main.h(16): warning:  #1-D: last line of file ends without a newline
   #endif 
-.\SYSTEM\timer\timer.h(8): warning:  #1-D: last line of file ends without a newline
+.\SYSTEM\timer\timer.h(7): warning:  #1-D: last line of file ends without a newline
   #endif
-USER\main.h(15): warning:  #1-D: last line of file ends without a newline
+USER\main.h(16): warning:  #1-D: last line of file ends without a newline
   #endif 
 USER\main.c: 3 warnings, 0 errors
+compiling key.c...
+.\USER\main.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif 
+.\SYSTEM\timer\timer.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\USER\main.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif 
+HARDWARE\KEY\key.c: 3 warnings, 0 errors
+compiling led.c...
+.\USER\main.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif 
+.\SYSTEM\timer\timer.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\USER\main.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif 
+HARDWARE\LED\led.c: 3 warnings, 0 errors
+compiling delay.c...
+compiling stm32f10x_it.c...
+compiling HX711.c...
+.\USER\main.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif 
+.\SYSTEM\timer\timer.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\USER\main.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif 
+HARDWARE\HX711\HX711.c: 3 warnings, 0 errors
+compiling system_stm32f10x.c...
+compiling usart.c...
+compiling timer.c...
+.\USER\main.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif 
+.\SYSTEM\timer\timer.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\USER\main.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif 
+SYSTEM\timer\timer.c: 3 warnings, 0 errors
+assembling startup_stm32f10x_hd.s...
+compiling sys.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_tim.c...
 linking...
-Program Size: Code=2296 RO-data=336 RW-data=64 ZI-data=1224  
+Program Size: Code=2852 RO-data=336 RW-data=64 ZI-data=1224  
 FromELF: creating hex file...
-".\USER\DebugConfig\ARMOR.axf" - 0 Error(s), 3 Warning(s).
+".\USER\DebugConfig\ARMOR.axf" - 0 Error(s), 15 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_ARMOR
-  D:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

@@ -4,14 +4,14 @@
     <Project>
         <Configuration>
             <JLink>
-                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="localhost" TargetDevice="STM32F103C8" TargetInterface="SWD" InterfaceSpeed="4000" />
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="STM32F103C8" TargetInterface="SWD" InterfaceSpeed="4000" />
             </JLink>
-            <ScriptFile Name="unspecified" />
-            <ElfFile Name="F:\RoboMaster\Software\Project\×°¼×°å\ARMOR\USER\DebugConfig\ARMOR.axf" />
+            <ScriptFile Name="D:\Robomaster\Software\Git\ARMOR\Software\OBJ\ARMOR.jscope\unspecified" />
+            <ElfFile Name="D:\Robomaster\Software\Git\ARMOR\Software\USER\DebugConfig\ARMOR.axf" />
             <DataFile Name="" />
             <RawFile Name="" />
             <Scope>
-                <Options TimeResolutionUs="100000" />
+                <Options TimeResolutionUs="200000" />
             </Scope>
         </Configuration>
         <Windows>
@@ -20,10 +20,10 @@
         </Windows>
         <SelectedSymbols>
             <Symbol>
-                <Options Name="Weight_Shiwu" Address="0x20000028" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="17" YMaxSampled="12474" YAvgSampled="1301" Offset="4" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="1000" MaxValue="200000" File="HARDWARE\HX711\HX711.c" Scope="0" DrawStyle="0" />
+                <Options Name="Weight_Shiwu" Address="0x20000028" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="47408" YMaxSampled="8468823" YAvgSampled="86505" Offset="4" ShowInGraph="1" ACCoupling="1" YOffset="200" IsAutoConfig="0" YResolution="1000" MaxValue="200000" File="HARDWARE\HX711\HX711.c" Scope="0" DrawStyle="0" />
             </Symbol>
             <Symbol>
-                <Options Name="last_Weight_Shiwu" Address="0x2000002C" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="17" YMaxSampled="12474" YAvgSampled="1256" Offset="8" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="50000" MaxValue="100000" File="HARDWARE\HX711\HX711.c" Scope="0" DrawStyle="0" />
+                <Options Name="last_Weight_Shiwu" Address="0x2000002C" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="8" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="50000" MaxValue="100000" File="HARDWARE\HX711\HX711.c" Scope="0" DrawStyle="0" />
             </Symbol>
         </SelectedSymbols>
     </Project>

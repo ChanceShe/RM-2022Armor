@@ -1,6 +1,6 @@
 Dependencies for Project 'ARMOR', Target 'ARMOR': (DO NOT MODIFY !)
-F (.\USER\main.c)(0x62262105)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\CORE -I .\STM32F10x_FWLib\inc -I .\STM32F10x_FWLib -I .\RMLib -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\timer -I .\SYSTEM\usart -I .\HARDWARE\LED -I .\HARDWARE\KEY -I .\HARDWARE\HX711 -I .\HARDWARE\output2vs -I .\TASK\controltask-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\user\debugconfig\main.o --omf_browse .\user\debugconfig\main.crf --depend .\user\debugconfig\main.d)
-I (USER\main.h)(0x622621CA)
+F (.\USER\main.c)(0x6226DDBE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\CORE -I .\STM32F10x_FWLib\inc -I .\STM32F10x_FWLib -I .\RMLib -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\timer -I .\SYSTEM\usart -I .\HARDWARE\LED -I .\HARDWARE\KEY -I .\HARDWARE\HX711 -I .\HARDWARE\output2vs -I .\TASK\controltask-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\user\debugconfig\main.o --omf_browse .\user\debugconfig\main.crf --depend .\user\debugconfig\main.d)
+I (USER\main.h)(0x6226D319)
 I (USER\stm32f10x.h)(0x4D783CB5)
 I (.\STM32F10x_FWLib\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -32,14 +32,14 @@ I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (.\SYSTEM\sys\sys.h)(0x6219A6A2)
 I (.\SYSTEM\delay\delay.h)(0x555AC82A)
-I (.\TASK\controltask\controltask.h)(0x622623A6)
-I (.\USER\main.h)(0x622621CA)
 I (.\SYSTEM\usart\usart.h)(0x50517A83)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (.\HARDWARE\LED\led.h)(0x62205BFA)
+I (.\HARDWARE\LED\led.h)(0x6226D2CA)
+I (.\USER\main.h)(0x6226D319)
 I (.\SYSTEM\timer\timer.h)(0x6225FEE4)
 I (.\HARDWARE\KEY\key.h)(0x621A28A4)
 I (.\HARDWARE\HX711\HX711.h)(0x62262626)
+I (.\TASK\controltask\controltask.h)(0x6226E0C2)
 F (.\README.TXT)(0x550BA30D)()
 F (.\USER\stm32f10x_it.c)(0x6219A785)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\CORE -I .\STM32F10x_FWLib\inc -I .\STM32F10x_FWLib -I .\RMLib -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\timer -I .\SYSTEM\usart -I .\HARDWARE\LED -I .\HARDWARE\KEY -I .\HARDWARE\HX711 -I .\HARDWARE\output2vs -I .\TASK\controltask-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\user\debugconfig\stm32f10x_it.o --omf_browse .\user\debugconfig\stm32f10x_it.crf --depend .\user\debugconfig\stm32f10x_it.d)
 I (USER\stm32f10x_it.h)(0x4D99A427)
@@ -102,8 +102,8 @@ I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
 I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (.\HARDWARE\LED\led.c)(0x62205BFA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\CORE -I .\STM32F10x_FWLib\inc -I .\STM32F10x_FWLib -I .\RMLib -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\timer -I .\SYSTEM\usart -I .\HARDWARE\LED -I .\HARDWARE\KEY -I .\HARDWARE\HX711 -I .\HARDWARE\output2vs -I .\TASK\controltask-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\user\debugconfig\led.o --omf_browse .\user\debugconfig\led.crf --depend .\user\debugconfig\led.d)
-I (.\USER\main.h)(0x622621CA)
+F (.\HARDWARE\LED\led.c)(0x6226D341)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\CORE -I .\STM32F10x_FWLib\inc -I .\STM32F10x_FWLib -I .\RMLib -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\timer -I .\SYSTEM\usart -I .\HARDWARE\LED -I .\HARDWARE\KEY -I .\HARDWARE\HX711 -I .\HARDWARE\output2vs -I .\TASK\controltask-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\user\debugconfig\led.o --omf_browse .\user\debugconfig\led.crf --depend .\user\debugconfig\led.d)
+I (.\USER\main.h)(0x6226D319)
 I (.\USER\stm32f10x.h)(0x4D783CB5)
 I (.\STM32F10x_FWLib\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -134,15 +134,15 @@ I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (.\SYSTEM\sys\sys.h)(0x6219A6A2)
 I (.\SYSTEM\delay\delay.h)(0x555AC82A)
-I (.\TASK\controltask\controltask.h)(0x622623A6)
 I (.\SYSTEM\usart\usart.h)(0x50517A83)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (.\HARDWARE\LED\led.h)(0x62205BFA)
+I (.\HARDWARE\LED\led.h)(0x6226D2CA)
 I (.\SYSTEM\timer\timer.h)(0x6225FEE4)
 I (.\HARDWARE\KEY\key.h)(0x621A28A4)
 I (.\HARDWARE\HX711\HX711.h)(0x62262626)
+I (.\TASK\controltask\controltask.h)(0x6226E0C2)
 F (.\HARDWARE\KEY\key.c)(0x621A29BF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\CORE -I .\STM32F10x_FWLib\inc -I .\STM32F10x_FWLib -I .\RMLib -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\timer -I .\SYSTEM\usart -I .\HARDWARE\LED -I .\HARDWARE\KEY -I .\HARDWARE\HX711 -I .\HARDWARE\output2vs -I .\TASK\controltask-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\user\debugconfig\key.o --omf_browse .\user\debugconfig\key.crf --depend .\user\debugconfig\key.d)
-I (.\USER\main.h)(0x622621CA)
+I (.\USER\main.h)(0x6226D319)
 I (.\USER\stm32f10x.h)(0x4D783CB5)
 I (.\STM32F10x_FWLib\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -173,15 +173,15 @@ I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (.\SYSTEM\sys\sys.h)(0x6219A6A2)
 I (.\SYSTEM\delay\delay.h)(0x555AC82A)
-I (.\TASK\controltask\controltask.h)(0x622623A6)
 I (.\SYSTEM\usart\usart.h)(0x50517A83)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (.\HARDWARE\LED\led.h)(0x62205BFA)
+I (.\HARDWARE\LED\led.h)(0x6226D2CA)
 I (.\SYSTEM\timer\timer.h)(0x6225FEE4)
 I (.\HARDWARE\KEY\key.h)(0x621A28A4)
 I (.\HARDWARE\HX711\HX711.h)(0x62262626)
+I (.\TASK\controltask\controltask.h)(0x6226E0C2)
 F (.\HARDWARE\HX711\HX711.c)(0x62262625)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\CORE -I .\STM32F10x_FWLib\inc -I .\STM32F10x_FWLib -I .\RMLib -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\timer -I .\SYSTEM\usart -I .\HARDWARE\LED -I .\HARDWARE\KEY -I .\HARDWARE\HX711 -I .\HARDWARE\output2vs -I .\TASK\controltask-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\user\debugconfig\hx711.o --omf_browse .\user\debugconfig\hx711.crf --depend .\user\debugconfig\hx711.d)
-I (.\USER\main.h)(0x622621CA)
+I (.\USER\main.h)(0x6226D319)
 I (.\USER\stm32f10x.h)(0x4D783CB5)
 I (.\STM32F10x_FWLib\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -212,13 +212,13 @@ I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (.\SYSTEM\sys\sys.h)(0x6219A6A2)
 I (.\SYSTEM\delay\delay.h)(0x555AC82A)
-I (.\TASK\controltask\controltask.h)(0x622623A6)
 I (.\SYSTEM\usart\usart.h)(0x50517A83)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (.\HARDWARE\LED\led.h)(0x62205BFA)
+I (.\HARDWARE\LED\led.h)(0x6226D2CA)
 I (.\SYSTEM\timer\timer.h)(0x6225FEE4)
 I (.\HARDWARE\KEY\key.h)(0x621A28A4)
 I (.\HARDWARE\HX711\HX711.h)(0x62262626)
+I (.\TASK\controltask\controltask.h)(0x6226E0C2)
 F (.\SYSTEM\delay\delay.c)(0x55CC2110)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\CORE -I .\STM32F10x_FWLib\inc -I .\STM32F10x_FWLib -I .\RMLib -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\timer -I .\SYSTEM\usart -I .\HARDWARE\LED -I .\HARDWARE\KEY -I .\HARDWARE\HX711 -I .\HARDWARE\output2vs -I .\TASK\controltask-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\user\debugconfig\delay.o --omf_browse .\user\debugconfig\delay.crf --depend .\user\debugconfig\delay.d)
 I (SYSTEM\delay\delay.h)(0x555AC82A)
 I (.\SYSTEM\sys\sys.h)(0x6219A6A2)
@@ -313,7 +313,7 @@ I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (SYSTEM\usart\usart.h)(0x50517A83)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
 F (.\SYSTEM\timer\timer.c)(0x62261E0D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\CORE -I .\STM32F10x_FWLib\inc -I .\STM32F10x_FWLib -I .\RMLib -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\timer -I .\SYSTEM\usart -I .\HARDWARE\LED -I .\HARDWARE\KEY -I .\HARDWARE\HX711 -I .\HARDWARE\output2vs -I .\TASK\controltask-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\user\debugconfig\timer.o --omf_browse .\user\debugconfig\timer.crf --depend .\user\debugconfig\timer.d)
-I (.\USER\main.h)(0x622621CA)
+I (.\USER\main.h)(0x6226D319)
 I (.\USER\stm32f10x.h)(0x4D783CB5)
 I (.\STM32F10x_FWLib\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -344,15 +344,15 @@ I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (.\SYSTEM\sys\sys.h)(0x6219A6A2)
 I (.\SYSTEM\delay\delay.h)(0x555AC82A)
-I (.\TASK\controltask\controltask.h)(0x622623A6)
 I (.\SYSTEM\usart\usart.h)(0x50517A83)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (.\HARDWARE\LED\led.h)(0x62205BFA)
+I (.\HARDWARE\LED\led.h)(0x6226D2CA)
 I (.\SYSTEM\timer\timer.h)(0x6225FEE4)
 I (.\HARDWARE\KEY\key.h)(0x621A28A4)
 I (.\HARDWARE\HX711\HX711.h)(0x62262626)
-F (.\TASK\controltask\controltask.c)(0x62262AFD)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\CORE -I .\STM32F10x_FWLib\inc -I .\STM32F10x_FWLib -I .\RMLib -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\timer -I .\SYSTEM\usart -I .\HARDWARE\LED -I .\HARDWARE\KEY -I .\HARDWARE\HX711 -I .\HARDWARE\output2vs -I .\TASK\controltask-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\user\debugconfig\controltask.o --omf_browse .\user\debugconfig\controltask.crf --depend .\user\debugconfig\controltask.d)
-I (.\USER\main.h)(0x622621CA)
+I (.\TASK\controltask\controltask.h)(0x6226E0C2)
+F (.\TASK\controltask\controltask.c)(0x6226E1A0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\CORE -I .\STM32F10x_FWLib\inc -I .\STM32F10x_FWLib -I .\RMLib -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\timer -I .\SYSTEM\usart -I .\HARDWARE\LED -I .\HARDWARE\KEY -I .\HARDWARE\HX711 -I .\HARDWARE\output2vs -I .\TASK\controltask-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\user\debugconfig\controltask.o --omf_browse .\user\debugconfig\controltask.crf --depend .\user\debugconfig\controltask.d)
+I (.\USER\main.h)(0x6226D319)
 I (.\USER\stm32f10x.h)(0x4D783CB5)
 I (.\STM32F10x_FWLib\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -383,13 +383,13 @@ I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (.\SYSTEM\sys\sys.h)(0x6219A6A2)
 I (.\SYSTEM\delay\delay.h)(0x555AC82A)
-I (.\TASK\controltask\controltask.h)(0x622623A6)
 I (.\SYSTEM\usart\usart.h)(0x50517A83)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (.\HARDWARE\LED\led.h)(0x62205BFA)
+I (.\HARDWARE\LED\led.h)(0x6226D2CA)
 I (.\SYSTEM\timer\timer.h)(0x6225FEE4)
 I (.\HARDWARE\KEY\key.h)(0x621A28A4)
 I (.\HARDWARE\HX711\HX711.h)(0x62262626)
+I (.\TASK\controltask\controltask.h)(0x6226E0C2)
 F (.\STM32F10x_FWLib\core_cm3.c)(0x6219A7B1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\CORE -I .\STM32F10x_FWLib\inc -I .\STM32F10x_FWLib -I .\RMLib -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\timer -I .\SYSTEM\usart -I .\HARDWARE\LED -I .\HARDWARE\KEY -I .\HARDWARE\HX711 -I .\HARDWARE\output2vs -I .\TASK\controltask-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\user\debugconfig\core_cm3.o --omf_browse .\user\debugconfig\core_cm3.crf --depend .\user\debugconfig\core_cm3.d)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
 F (.\STM32F10x_FWLib\startup_stm32f10x_hd.s)(0x6219A79C)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ARMOR-ID:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\user\debugconfig\startup_stm32f10x_hd.o --depend .\user\debugconfig\startup_stm32f10x_hd.d)

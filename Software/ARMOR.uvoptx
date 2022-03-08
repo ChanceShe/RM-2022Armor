@@ -118,6 +118,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
+          <Name>`[?</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -170,17 +171,17 @@
         <Ww>
           <count>3</count>
           <WinNumber>1</WinNumber>
-          <ItemText>Weight_Maopi,0x0A</ItemText>
+          <ItemText>system_time,0x0A</ItemText>
         </Ww>
         <Ww>
           <count>4</count>
           <WinNumber>1</WinNumber>
-          <ItemText>HX711_Buffer,0x0A</ItemText>
+          <ItemText>weight,0x0A</ItemText>
         </Ww>
         <Ww>
           <count>5</count>
           <WinNumber>1</WinNumber>
-          <ItemText>system_time,0x0A</ItemText>
+          <ItemText>hitflag,0x0A</ItemText>
         </Ww>
       </WatchWindow1>
       <Tracepoint>

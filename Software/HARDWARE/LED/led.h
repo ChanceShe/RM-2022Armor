@@ -6,6 +6,7 @@
 #define LED1 PEout(5)// PE5	
 
 void LED_Init(void);//≥ı ºªØ
-void LEDflash(void);
+void LEDcontrol(void);
+void LEDoff(void);
 
 #endif

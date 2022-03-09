@@ -21,12 +21,36 @@ Target DLL:      Segger\JL2CM3.dll V2.99.23.0
 Dialog DLL:      TCM.DLL V1.27.0.0
  
 <h2>Project:</h2>
-F:\RoboMaster\Software\Project\×°¼×°å\Software\ARMOR.uvprojx
+F:\RoboMaster\Software\Git\ARMOR\Software\ARMOR.uvprojx
 Project File Date:  03/08/2022
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'ARMOR'
+compiling led.c...
+.\USER\main.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif 
+.\SYSTEM\timer\timer.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\USER\main.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif 
+HARDWARE\LED\led.c: 3 warnings, 0 errors
+compiling main.c...
+.\USER\main.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif 
+.\SYSTEM\timer\timer.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+USER\main.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif 
+USER\main.c: 3 warnings, 0 errors
+compiling timer.c...
+.\USER\main.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif 
+.\SYSTEM\timer\timer.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\USER\main.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif 
+SYSTEM\timer\timer.c: 3 warnings, 0 errors
 compiling controltask.c...
 .\USER\main.h(18): warning:  #1-D: last line of file ends without a newline
   #endif 
@@ -35,17 +59,33 @@ compiling controltask.c...
 .\USER\main.h(18): warning:  #1-D: last line of file ends without a newline
   #endif 
 TASK\controltask\controltask.c: 3 warnings, 0 errors
+compiling HX711.c...
+.\USER\main.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif 
+.\SYSTEM\timer\timer.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\USER\main.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif 
+HARDWARE\HX711\HX711.c: 3 warnings, 0 errors
+compiling key.c...
+.\USER\main.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif 
+.\SYSTEM\timer\timer.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\USER\main.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif 
+HARDWARE\KEY\key.c: 3 warnings, 0 errors
 linking...
-Program Size: Code=3176 RO-data=336 RW-data=60 ZI-data=1244  
+Program Size: Code=3200 RO-data=336 RW-data=64 ZI-data=1248  
 FromELF: creating hex file...
-".\USER\DebugConfig\ARMOR.axf" - 0 Error(s), 3 Warning(s).
+".\USER\DebugConfig\ARMOR.axf" - 0 Error(s), 18 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_ARMOR
   D:\Keil_v5\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:00
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

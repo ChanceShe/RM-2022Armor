@@ -3,8 +3,8 @@ u32 system_time = 0;
 u16 weight[10] = {0};
 u8 pointer = 0;
 u8 hitflag = 0;
-u8 hitcount = 0;
-u8 ledoff_time=0;
+u16 hitcount = 0;
+int ledoff_time=0;
 
 void control_task(void)
 {
@@ -35,7 +35,7 @@ void hitmonitor()
 		{
 			if(Weight_Shiwu != weight[pointer])
 			{
-				if(Weight_Shiwu - weight[pointer] >= 500)
+				if((Weight_Shiwu - weight[pointer] >= 800)&&(Weight_Shiwu - weight[pointer] <= 1800))
 					hitflag = 1;
 				else
 					weight[pointer] = Weight_Shiwu;
@@ -44,17 +44,17 @@ void hitmonitor()
 		break;
 		case 1:
 		{
-			if(Weight_Shiwu >= weight[pointer])
+			if(Weight_Shiwu > weight[pointer])
 			{
 				pointer++;
 				weight[pointer] = Weight_Shiwu;				
 			}
-			else if(Weight_Shiwu <= weight[pointer])
+			else if(Weight_Shiwu < weight[pointer])
 			{
-				if((weight[pointer] - Weight_Shiwu >= 10)&&pointer>=1&&pointer<=3)
+				if((weight[pointer] - Weight_Shiwu >= 10)&&pointer>=1&&pointer<=2)
 				{
 					hitcount++ ;
-					ledoff_time = 30;
+					ledoff_time = 100;
 					pointer = 0;
 					hitflag = 0;
 				}

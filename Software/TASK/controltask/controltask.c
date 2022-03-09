@@ -35,7 +35,7 @@ void hitmonitor()
 		{
 			if(Weight_Shiwu != weight[pointer])
 			{
-				if((Weight_Shiwu - weight[pointer] >= 800)&&(Weight_Shiwu - weight[pointer] <= 1800))
+				if((Weight_Shiwu - weight[pointer] >= 300)&&(Weight_Shiwu - weight[pointer] <= 1800))
 					hitflag = 1;
 				else
 					weight[pointer] = Weight_Shiwu;
@@ -51,7 +51,7 @@ void hitmonitor()
 			}
 			else if(Weight_Shiwu < weight[pointer])
 			{
-				if((weight[pointer] - Weight_Shiwu >= 10)&&pointer>=1&&pointer<=2)
+				if((weight[pointer] - Weight_Shiwu >= 50)&&pointer>=1&&pointer<=2)
 				{
 					hitcount++ ;
 					ledoff_time = 100;

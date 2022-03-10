@@ -9,22 +9,19 @@ int ledoff_time=0;
 void control_task(void)
 {
 	system_time++;
-	if(system_time>=2000)
+	if(system_time%100 == 0)
 	{
-		if(system_time%100 == 0)
-		{
-			Get_Weight();
-		}
-		hitmonitor();
-		if(ledoff_time)
-		{
-			LEDoff();
-			ledoff_time--;
-		}
-		else
-		{
-			LEDcontrol();
-		}
+		Get_Weight();
+	}
+	hitmonitor();
+	if(ledoff_time)
+	{
+		LEDoff();
+		ledoff_time--;
+	}
+	else
+	{
+		LEDcontrol();
 	}
 }
 void hitmonitor()
@@ -35,7 +32,7 @@ void hitmonitor()
 		{
 			if(Weight_Shiwu != weight[pointer])
 			{
-				if((Weight_Shiwu - weight[pointer] >= 300)&&(Weight_Shiwu - weight[pointer] <= 1800))
+				if((Weight_Shiwu - weight[pointer] >= 200)&&(Weight_Shiwu - weight[pointer] <= 2000))
 					hitflag = 1;
 				else
 					weight[pointer] = Weight_Shiwu;
@@ -47,11 +44,16 @@ void hitmonitor()
 			if(Weight_Shiwu > weight[pointer])
 			{
 				pointer++;
-				weight[pointer] = Weight_Shiwu;				
+				weight[pointer] = Weight_Shiwu;
+				if(pointer >=9)
+				{
+					pointer = 0;
+					hitflag = 0;
+				}
 			}
 			else if(Weight_Shiwu < weight[pointer])
 			{
-				if((weight[pointer] - Weight_Shiwu >= 50)&&pointer>=1&&pointer<=2)
+				if((weight[pointer] - Weight_Shiwu >= 50)&&pointer>=1&&pointer<=2000)
 				{
 					hitcount++ ;
 					ledoff_time = 100;

@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UJOJUTHU
 
 [Document5]
-DocumentPath=..\..\..\¿â\ÈýÎ¬PCB·â×°¿â\M3Í­Öù.PcbLib
+DocumentPath=PcbLIB\LOGO.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -120,10 +120,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=TRSIBYIQ
+DocumentUniqueId=
 
 [Document6]
-DocumentPath=..\..\..\¿â\ÈýÎ¬PCB·â×°¿â\µç¸Ð.PcbLib
+DocumentPath=PcbLIB\M3Í­Öù.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -137,10 +137,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LXLUVFMP
+DocumentUniqueId=
 
 [Document7]
-DocumentPath=..\..\..\¿â\ÈýÎ¬PCB·â×°¿â\ÅÅÕë-ÅÅÄ¸.PcbLib
+DocumentPath=PcbLIB\SOPÌùÆ¬Ð¾Æ¬.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -154,10 +154,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=HHGMNDRR
+DocumentUniqueId=
 
 [Document8]
-DocumentPath=..\..\..\¿â\ÈýÎ¬PCB·â×°¿â\LOGO.PcbLib
+DocumentPath=PcbLIB\µç¸Ð.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -171,10 +171,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=HCQBKYBN
+DocumentUniqueId=
 
 [Document9]
-DocumentPath=..\..\..\¿â\ÈýÎ¬PCB·â×°¿â\SOPÌùÆ¬Ð¾Æ¬.PcbLib
+DocumentPath=PcbLIB\ÅÅÕë-ÅÅÄ¸.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -188,7 +188,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AKYJXGRX
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources
